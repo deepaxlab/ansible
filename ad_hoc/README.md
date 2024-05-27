@@ -8,5 +8,10 @@ Example command:
 
 ansible all -i /etc/ansible/inventory -m ping 
 
-#used to ping the nodes in the inventory
+ansible all= the ad hoc command to to traget on group 'all', so basically in this case it will target all host mentioned in the inventory file.
+
+-i= 'i' flag means inventory file and followed by the inventory file path. 
+
+-m= 'm' flag means module, in this case its ping module.
+
 
