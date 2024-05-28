@@ -10,7 +10,7 @@
 
 
 
-[testserver]
+[applicationserver]
 
 14.25.36.789 ansible_user=deepak ansible_password=123456
 
