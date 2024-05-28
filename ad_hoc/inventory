@@ -1,11 +1,21 @@
 [webserver]
 
-
-
 12.235.567.89 ansible_user=deepak ansible_password=123456
+
+
 
 [database]
 
-
 98.876.654.321 ansible_user=deepak ansible_password=123456
 
+
+
+[testserver]
+
+14.25.36.789 ansible_user=deepak ansible_password=123456
+
+
+[allservers:children]
+
+webserver
+database
