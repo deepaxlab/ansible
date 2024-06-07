@@ -7,7 +7,7 @@ They are executed directly from the command line using the ansible command.
 ## Example command:
 
 ```
-ansible all -i /etc/ansible/inventory -m ping
+ansible allservers -i /etc/ansible/inventory -m ping
 ```
 
 ansible all= the ad hoc command to to traget on group 'all', so basically in this case it will target all host mentioned in the inventory file.
