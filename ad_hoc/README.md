@@ -10,7 +10,7 @@ They are executed directly from the command line using the ansible command.
 ansible allservers -i /etc/ansible/inventory -m ping
 ```
 
-ansible all= the ad hoc command to to traget on group 'all', so basically in this case it will target all host mentioned in the inventory file.
+ansible all= the ad hoc command to to traget on group 'allservers', so basically in this case it will target all host mentioned in the inventory file.
 
 -i= 'i' flag means inventory file and followed by the inventory file path. It coould be of any name such as inventory, hosts, etc 
 
