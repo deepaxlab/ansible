@@ -13,6 +13,6 @@ ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ec2-user@<INSTANCE-PUBLIC-IP
 
 - Go to file `/etc/ssh/sshd_config`
 - Edit `PasswordAuthentication yes`
-- Restart SSH service `sudo systemctl restart sshd.service`
 - Add password using to the user using command `sudo passwd username`
+- Restart SSH service `sudo systemctl restart sshd.service`
 
