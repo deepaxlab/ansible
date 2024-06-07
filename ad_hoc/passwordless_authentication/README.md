@@ -1,6 +1,6 @@
 # Passwordless Authentication
 
-### 1. using SSH Key:
+### 1. Using SSH Key:
 
 ```
 ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ec2-user@<INSTANCE-PUBLIC-IP>
@@ -9,7 +9,7 @@ ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ec2-user@<INSTANCE-PUBLIC-IP
 -  `f`: This flag forces the installation/copying of the key even if the key is already present/installed on the remote instance.
 -  `o IdentityFile` is used to pass options to the SSH client or pointing to the .pem file. Its identity file, which is private key (.pem file) of `INSTANCE-PUBLIC-IP` for authentication and -o 
 
-### 2. using user and password:
+### 2. Using user and password:
 
 - Go to file `/etc/ssh/sshd_config`
 - Edit `PasswordAuthentication yes`
