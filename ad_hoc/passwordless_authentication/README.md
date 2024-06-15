@@ -3,7 +3,7 @@
 ### 1. Using SSH Key:
 
 ```
-ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" ec2-user@<INSTANCE-PUBLIC-IP>
+ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" user@<INSTANCE-PUBLIC-IP>
 ```
 - `ssh-copy-id`: This commmand copies my(local machines) public key in the remote instance authorized_key file (~/.ssh/authorized_keys). In this case its `INSTANCE-PUBLIC-IP` instance. 
 -  `f`: This flag forces the installation/copying of the key even if the key is already present/installed on the remote instance.
