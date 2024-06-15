@@ -1,0 +1,8 @@
+[server password]
+
+3.79.229.114 ansbile_user=deepak ansible_password=abc123	
+
+[server ssh]3.79.229.114
+
+54.93.63.116 ansible_user=deepak	
+
