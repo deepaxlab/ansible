@@ -15,4 +15,5 @@ ssh-copy-id -f "-o IdentityFile <PATH TO PEM FILE>" user@<INSTANCE-PUBLIC-IP>
 - Edit `PasswordAuthentication yes`
 - Add password using to the user using command `sudo passwd username`
 - Restart SSH service `sudo systemctl restart sshd.service`
+- `ssh-copy-id user@<INSTANCE-PUBLIC-IP>`
 
